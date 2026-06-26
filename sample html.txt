@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>チームページ</title>
+  <link rel="stylesheet" href="sample.css">
+</head>
+<body>
+
+<header>
+  <div class="left-header">
+    <div class="logo-box">ロゴ</div>
+    <div class="team-name">チーム名</div>
+  </div>
+
+  <nav>
+    <a href="home.html">ホーム</a>
+    <input type="checkbox" id="member-toggle">
+    <label for="member-toggle" class="member-btn">member</label>
+
+    <ul class="member-menu">
+      <li><a href="member1.html">メンバー1</a></li>
+      <li><a href="member2.html">メンバー2</a></li>
+      <li><a href="member3.html">メンバー3</a></li>
+    </ul>
+  </nav>
+</header>
+</body>
+</html>
