@@ -5,3 +5,8 @@
     object-fit: cover;
     border: 3px solid #47b5e7;
 }
+.box {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
