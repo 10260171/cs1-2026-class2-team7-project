@@ -10,3 +10,7 @@
   gap: 16px;
   align-items: center;
 }
+h1 {
+  color: coral;
+  text-shadow: 2px 2px 2px;
+}
