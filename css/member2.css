@@ -1,0 +1,15 @@
+.likes {
+    border-bottom: 4px dotted #000000;
+}
+
+.top {
+    border: solid 2px;
+    width: 130px;
+
+}
+
+.profile {
+    display: inline-block;
+    margin:10px
+}
+
