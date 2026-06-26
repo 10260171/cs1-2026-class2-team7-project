@@ -5,12 +5,25 @@
     object-fit: cover;
     border: 3px solid #47b5e7;
 }
-.box {
-  display: flex;
-  gap: 16px;
-  align-items: center;
-}
+
 h1 {
   color: coral;
   text-shadow: 2px 2px 2px;
+}
+
+.blank {
+  margin-top: 200px;
+}
+
+.container {
+  display: flex;
+  gap: 10px;
+}
+
+.box {
+  background-color: #ccc;
+  padding: 20px;
+  display: flex;
+  gap: 16px;
+  align-items: center;
 }
