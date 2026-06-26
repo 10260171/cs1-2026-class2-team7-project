@@ -10,3 +10,17 @@
   gap: 16px;
   align-items: center;
 }
+
+.blank {
+  margin-top: 200px;
+}
+
+.container {
+  display: flex; 
+  gap: 10px;      
+}
+
+.box {
+  background-color: #ccc;
+  padding: 20px;
+}
