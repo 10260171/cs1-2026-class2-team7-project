@@ -9,7 +9,9 @@
 }
 
 .profile {
-    display: inline-block;
     margin:10px
 }
 
+.intro {
+    display: flex;
+}
