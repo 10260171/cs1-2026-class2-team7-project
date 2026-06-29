@@ -9,9 +9,25 @@
 }
 
 .profile {
-    margin:10px
+     display: flex;
+    flex-direction: row;
+    background-image: url(https://cdn.pakutaso.com/shared/img/thumb/aig-ai230605023-xl_TP_V.jpg);
+    height: 150px;
+    background-size:cover ;
+    
+    
+}
+.intro {
+    border: solid 3px ;
+    
 }
 
-.intro {
-    display: flex;
+#icon {
+    width: 30%;
+
+}
+
+body {
+    background-size: cover;
+   
 }
