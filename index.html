@@ -6,20 +6,30 @@
         <link rel="stylesheet" type="text/css" href="css/style.css" />
     </head>
     <body background="images/iniad.jpg">
-        <div class="box">
-            <img src="images/skmr.jpg" alt="ロゴ" class="logo">
-            <h1>チーム名</h1>
-        </div>
+        <header>
+            <div class="left-header">
+                <div class="logo-box">ロゴ</div>
+                <div class="team-name">チーム名</div>
+            </div>
+            <nav>
+                <a href="index.html">ホーム</a>
+                <input type="checkbox" id="member-toggle">
+                <label for="member-toggle" class="member-btn">member</label>
+                <ul class="member-menu">
+                    <li><a href="member1.html">メンバー1</a></li>
+                    <li><a href="member2.html">メンバー2</a></li>
+                    <li><a href="member3.html">メンバー3</a></li>
+                </ul>
+            </nav>
+        </header>
         <hr>
-
         <hr class="blank">
         <p>MEMBER(ABOUT US)</p>
 
         <div class="container">
-            <div class="box">member1</div>
-            <div class="box">member2</div>
-            <div class="box">member3</div>
+            <div class="box"><a href="member1.html">member1</a></div>
+            <div class="box"><a href="member2.html">member2</a></div>
+            <div class="box"><a href="member3.html">member3</a></div>
         </div>
-        
 </html>
 
